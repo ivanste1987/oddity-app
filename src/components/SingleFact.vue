@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="single-container">
     <div class="single-fact">
       <img :src="joke.img" alt="icon" />
       <p>{{ joke.desc }}</p>
@@ -44,12 +44,12 @@ export default {
 };
 </script>
 
-<style lang="scss">
-.container {
+<style lang="scss" scoped>
+.single-container {
   padding: 0.75%;
+  
   .single-fact {
     width: 250px;
-    margin: 0.75%;
     padding: 1%;
     box-sizing: border-box;
     background: #282c35;

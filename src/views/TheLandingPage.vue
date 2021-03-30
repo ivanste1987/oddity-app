@@ -63,7 +63,7 @@ export default {
     padding: 0.75%;
   }
   .random-joke {
-    width: 18.5%;
+     width: 250px;
     margin: 0.75%;
     padding: 1%;
     box-sizing: border-box;
